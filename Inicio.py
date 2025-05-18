@@ -122,8 +122,14 @@ st.markdown('''
 col1, col2 = st.columns([1, 2])
 
 # Columna izquierda: Foto del estudiante
-with col1:
-    st.image(r"C:\Users\erney\OneDrive\Imágenes\Álbum de cámara\juan.jpg", width=200, caption="Estudiante", output_format="JPEG")
+
+st.image("images/juan.jpg", width=200, caption="Estudiante")
+
+
+
+
+
+
 
 
 # Columna derecha: Información del estudiante
